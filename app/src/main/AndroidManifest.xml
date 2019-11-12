@@ -9,10 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service
-            android:name=".MyFirebaseMessagingService"
-            android:enabled="false"
-            android:exported="false"></service>
+
 
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
             }
         });
-        
+
         Button logTokenButton = findViewById(R.id.btn_token);
         logTokenButton.setOnClickListener(new View.OnClickListener() {
             @Override
